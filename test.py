@@ -18,7 +18,6 @@ try:
     wait = WebDriverWait(driver, 30)
     print("wait ===========")
     element = wait.until(EC.visibility_of_element_located((By.ID, 'middle')))
-    print("element ========")
     
     title = driver.find_element(By.CLASS_NAME, "notranslate")
     
